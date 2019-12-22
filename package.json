@@ -1,0 +1,38 @@
+{
+  "name": "@amrebada/sam-cli",
+  "version": "1.0.0",
+  "description": "A CLI for souqalmal operations",
+  "main": "src/index.js",
+  "bin": {
+    "@amrebada/sam-cli": "bin/sam",
+    "sam": "bin/sam"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrebada/sam-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "SAM",
+    "Souqalmal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amrebada/sam-cli/issues"
+  },
+  "homepage": "https://github.com/amrebada/sam-cli#readme",
+  "dependencies": {
+    "arg": "^4.1.2",
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.1",
+    "ncp": "^2.0.0"
+  }
+}
