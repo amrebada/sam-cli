@@ -1,6 +1,4 @@
 import arg from 'arg';
-import inquirer from 'inquirer';
-
 import { startGenerate, listFiles, convertToFullpath } from './main';
 
 function parseArgumentsIntoOptions(rawArgs) {
